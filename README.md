@@ -29,5 +29,4 @@ This is a rich text editor built using the [TipTap](https://tiptap.dev/) library
 2. Install Dependency:
 ```bash
 npm install
-![Screenshot 2024-12-30 202706](https://github.com/user-attachments/assets/4ec1002b-211b-47a1-9fa5-48677ea7cadd)
 
