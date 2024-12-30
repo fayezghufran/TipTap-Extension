@@ -1,0 +1,33 @@
+.ProseMirror {
+  outline: none;
+  padding: 1rem;
+  min-height: 200px;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background-color: #f7fafc; 
+}
+.ProseMirror p {
+  margin: 0 0 1rem; 
+}
+
+/* Custom cursor */
+.ProseMirror {
+  cursor: text !important;
+}
+
+/* Custom text selection */
+::selection {
+  background-color: #38bdf8; 
+  color: white;
+}
+
+/* Placeholder Styling */
+.ProseMirror p::before {
+  content: "Start typing here...";
+  color: #b0b0b0;
+}
+
+/* Smooth scrolling for ProseMirror */
+.ProseMirror {
+  scroll-behavior: smooth;
+}
