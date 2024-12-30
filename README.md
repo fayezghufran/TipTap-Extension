@@ -1,12 +1,33 @@
-<<<<<<< HEAD
-# React + Vite
+# TipTap Extension Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a rich text editor built using the [TipTap](https://tiptap.dev/) library in ReactJS. It includes custom extensions and features styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# TipTap-Extension
->>>>>>> 8f7680b4fa357b8ddd39bff7fab245b2bf28aafa
+- **Text Formatting**: Bold, Italic, Underline.
+- **Text Highlighting**.
+- **Custom Extensions**:
+  - Font Size
+  - Text Alignment (Left, Center, Right)
+  - Text Color Picker
+- **Interactive Toolbar**: Icons for user-friendly actions.
+- **Customizable Content**: Predefined editable content.
+
+## Technologies Used
+
+- **ReactJS**
+- **TipTap** with custom extensions
+- **Tailwind CSS**
+- **React Icons**
+- **React Color** for the color picker
+
+## How to Use
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/fayezghufran/TipTap-Extension.git
+2. Install Dependency:
+```bash
+npm install
+![Screenshot 2024-12-30 202706](https://github.com/user-attachments/assets/4ec1002b-211b-47a1-9fa5-48677ea7cadd)
+
